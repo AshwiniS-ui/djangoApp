@@ -1,26 +1,4 @@
-# from django.shortcuts import render
-# from rest_framework.response import Response
-# from rest_framework.decorators import api_view
-# # Create your views here.
-# from . serializer import StudentSerializer
-# from .models import Student
-# @api_view(['GET'])
-# def stuOverview(request):
-#     stu_urls = {
-#         'List': '/student-list',
-#         'Detail View' : '/student-detail/<int:id>',
-#         'Create': '/student-create/<int:id>',
-#         'Update': '/student-update/<int:id>',
-#         'Delete': '/student-delete/<int:id>',
-#
-# }
-#     return Response(stu_urls);
-#
-# @stuOverview(['GET'])
-# def showAll(request):
-#     students = Student.objects.all()
-#     serializer = StudentSerializer(students, many=True)
-#     return Response(serializer.data)
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from . models import student
