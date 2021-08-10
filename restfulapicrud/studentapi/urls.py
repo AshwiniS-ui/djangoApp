@@ -1,9 +1,3 @@
-# from django.urls import path
-# from . import views
-# urlpatterns = [
-#       path('', views.stuOverview, name="stuOverview"),
-#       path('student-list/', views.showAll, name="list"),
-# ]
 
 from django.contrib import admin
 
