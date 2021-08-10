@@ -1,16 +1,4 @@
-# from django.db import models
-#
-# # Create your models here.
-#
-# class Student(models.Model):
-#     stu_id = models.IntegerField()
-#     stuName = models.CharField(max_length=100)
-#     department = models.CharField(max_length=100)
-#     cgpa = models.DecimalField(max_digits=4,decimal_places=2)
-#
-#     def __str__(self):
-#         return self.stu_id+'-'+self.stuName+'-'+self.department+'-'+self.cgpa
-#
+
 from django.db import models
 
 # Create your models here.
